@@ -37,16 +37,16 @@ The Long Dark has a native Linux version, but MelonLoader currently has compatib
 
 ---
 
-## Part 3: Install MelonLoader 0.7.1 (For .NET Setup)
+## Part 3: Install MelonLoader 0.7.2
 
 1. **Launch the MelonLoader installer** (double-click the file)
 2. When prompted to add a game, select **The Long Dark** from the list
    - The installer automatically detects installed Unity games
-3. Make sure the version dropdown shows **0.7.1** (or latest version)
-   - Don't worry about "Enable Nightly Builds" - it doesn't matter for this step
-4. Click **Install**
-5. Look for grey text that says **"How do I start MelonLoader?"** - click it
-6. **Copy the launch argument** shown (should look like: `WINEDLLOVERRIDES="version=n,b" %command%`)
+3. If 0.7.2 is not on the list of versions, click the checkbox that says "Enable nightly builds".
+4. Make sure the version dropdown shows **0.7.2-ci.2388 or greater**.
+5. Click **Install**
+6. Look for grey text that says **"How do I start MelonLoader?"** - click it
+7. **Copy the launch argument** shown (should look like: `WINEDLLOVERRIDES="version=n,b" %command%`)
 
 ---
 
@@ -58,30 +58,11 @@ The Long Dark has a native Linux version, but MelonLoader currently has compatib
 4. Look for the **Launch Options** field
 5. **Paste** the text you copied: `WINEDLLOVERRIDES="version=n,b" %command%`
 6. Close the properties window
-7. **Launch the game once**
-   - This installs .NET 6 in the game's Wine prefix for MelonLoader to use
-   - The game should load normally
-   - Close the game when you reach the main menu
 
-> **Note:** If the game freezes when exiting, just restart your device - this is a known quirk but doesn't affect functionality.
 
----
+## Part 5: Install Mods
 
-## Part 5: Downgrade to MelonLoader 0.6.6
-
-1. **Open the MelonLoader installer again**
-2. Select **The Long Dark**
-3. In the **version dropdown**, select **0.6.6**
-4. Click **Downgrade** (or Install)
-5. Wait for the installation to complete
-
-**Why 0.6.6?** This version is currently the most stable for modded gameplay. Version 0.7.1 was only needed to set up .NET support.
-
----
-
-## Part 6: Install Mods
-
-1. Launch the game once with MelonLoader 0.6.6
+1. Launch the game once with MelonLoader 0.7.2
    - **Note:** The first launch may take a while - be patient!
    - Let it sit and load completely
 2. A **Mods** folder will be created in your game directory
@@ -120,14 +101,6 @@ Before modding, back up your save files:
 
 ## Troubleshooting
 
-### Game won't launch after downgrading to 0.6.6:
-- Be patient - first launch can take several minutes
-- If it still doesn't work, we'll need the log file:
-  1. Navigate to your game folder
-  2. Open the **MelonLoader** folder
-  3. Find **latest.log**
-  4. Share this file when asking for help
-
 ### Installer won't open or keeps crashing:
 - Make sure there's no **version.dll** file in the same folder as the installer
 - This file is MelonLoader's hook and will try to hook into the installer itself
@@ -135,7 +108,7 @@ Before modding, back up your save files:
 ### Mods aren't loading:
 - Verify files are **extracted** from zip files
 - Check that .dll files are directly in the Mods folder
-- Make sure you're running MelonLoader 0.6.6, not 0.7.1
+- Make sure you're running MelonLoader 0.7.2.
 
 ---
 
