@@ -114,9 +114,9 @@ Before modding, back up your save files:
 
 ## Additional Resources
 
-- **MelonLoader Wiki:** https://melonwiki.xyz/
-- **The Long Dark Modlist:** [Community modlist link]
-- **Discord:** For live help, join the TLD modding community Discord
+- **MelonLoader Wiki:** [Everything about MelonLoader](https://melonwiki.xyz/)
+- **The Long Dark Modlist:** [Find newest mods here](https://tldmods.com/)
+- **Discord:** [For live help, join the TLD modding community Discord](https://discord.gg/Aa2tKD94s6)
 
 ---
 
