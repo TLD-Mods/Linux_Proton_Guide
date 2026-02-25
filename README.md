@@ -25,7 +25,7 @@ The Long Dark has a native Linux version, but MelonLoader currently has compatib
 ## Part 2: Download MelonLoader Installer
 
 1. Switch to **Desktop Mode** (if on Steam Deck)
-2. Open **Firefox**
+2. Open your browser.
 3. Go to https://melonwiki.xyz/
 4. Download the **Linux native installer**
 5. Open the file manager (**Dolphin**)
@@ -85,7 +85,8 @@ The Long Dark has a native Linux version, but MelonLoader currently has compatib
 
 - **ModSettings** is recommended - it adds an in-game menu to configure mods
 - **Avoid "Auto Updating Plugin"** - it can cause crashes on Linux
-- Many mods require **ModComponent** - download it if mods aren't working
+- **Make sure to only use mods marked "Working" if you want to ensure nothing breaks**
+- **Make sure you have all dependencies of your mods installed before starting**
 
 ---
 
@@ -102,8 +103,7 @@ Before modding, back up your save files:
 ## Troubleshooting
 
 ### Installer won't open or keeps crashing:
-- Make sure there's no **version.dll** file in the same folder as the installer
-- This file is MelonLoader's hook and will try to hook into the installer itself
+- Make sure there's no **version.dll** file in the same folder as the installer (This file is MelonLoader's hook and will try to hook into the installer itself)
 
 ### Mods aren't loading:
 - Verify files are **extracted** from zip files
