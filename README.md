@@ -28,7 +28,7 @@ The Long Dark has a native Linux version, but MelonLoader currently has compatib
 2. Open your browser.
 3. Go to https://melonwiki.xyz/
 4. Download the **Linux native installer**
-5. Open the file manager (**Dolphin**)
+5. Open the file manager (*Dolphin on Steam Deck*)
 6. Navigate to your **Downloads** folder
 7. Find **MelonLoaderInstaller.linux**
 8. **Right-click** on it → **Properties** → **Permissions** tab
