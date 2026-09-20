@@ -42,11 +42,10 @@ The Long Dark has a native Linux version, but MelonLoader currently has compatib
 1. **Launch the MelonLoader installer** (double-click the file)
 2. When prompted to add a game, select **The Long Dark** from the list
    - The installer automatically detects installed Unity games
-3. If 0.7.2 is not on the list of versions, click the checkbox that says "Enable nightly builds".
-4. Make sure the version dropdown shows **0.7.2-ci.2388 or greater**.
-5. Click **Install**
-6. Look for grey text that says **"How do I start MelonLoader?"** - click it
-7. **Copy the launch argument** shown (should look like: `WINEDLLOVERRIDES="version=n,b" %command%`)
+3. Select version 0.7.2
+4. Click **Install**
+5. Look for grey text that says **"How do I start MelonLoader?"** - click it
+6. **Copy the launch argument** shown (should look like: `WINEDLLOVERRIDES="version=n,b" %command%`)
 
 ---
 
